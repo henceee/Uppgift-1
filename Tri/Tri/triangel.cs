@@ -61,6 +61,8 @@ public class Triangle {
   }
 }
 
+
+
 /* Exempel på användning: */
 /* class Program { */
 /*   static void Main(string[] args) { */
