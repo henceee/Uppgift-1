@@ -211,5 +211,7 @@ namespace UnitTestProject1
         }
 
 
+        //Testa public Triangle(double[] s)
+
     }
 }
