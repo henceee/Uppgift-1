@@ -211,6 +211,24 @@ namespace UnitTestProject1
         }
 
 
+                //Test 18
+
+        [TestMethod]
+        public void DoubleArraytest()
+        {
+            double[] sides;
+
+            sides = new double[3];
+
+            sides[0] = 1.0;
+            sides[2] = 2.0;
+            sides[3] = 3.0;
+
+            Triangle tri = new Triangle(sides);
+
+            Assert.IsTrue(tri.isScalene());
+        }
+
         //Testa public Triangle(double[] s)
 
     }
